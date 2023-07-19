@@ -53,3 +53,4 @@ enter_name.insert(0, 'meow')
 enter_name.grid(row=0, column=1)
 def handle_button_get_info():
     poke_name = enter_name.get().strip()
+    if poke_name = 

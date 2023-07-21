@@ -48,9 +48,9 @@ frm_input.grid(row=1, column=1, padx=(20,10), pady=(10,20))
 root.mainloop()
 
 
-enter_name = ttk.Entry(frm_top)
-enter_name.insert(0, 'meow')
-enter_name.grid(row=0, column=1)
-def handle_button_get_info():
-    poke_name = enter_name.get().strip()
-    if poke_name = 
+#enter_name = ttk.Entry(frm_top)
+#enter_name.insert(0, 'meow')
+#enter_name.grid(row=0, column=1)
+#def handle_button_get_info():
+    #poke_name = enter_name.get().strip()
+    #if poke_name = 

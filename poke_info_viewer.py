@@ -16,7 +16,7 @@ root.title("Pokemon Information")
 
 # TODO: Create the frames
 frm_top = ttk.Frame(root)
-frm_top.grid(row=0, column=3, columnspan=2)
+frm_top.grid(row=0, column=0, columnspan=2)
 
 frm_btm_left = ttk.Frame(root)
 frm_btm_left.grid(row=1, column=1)
@@ -40,8 +40,8 @@ frm_input.grid(row=1, column=0, padx=(20,10), pady=(10,20))
 
 #Getting info table 
 enter_name = ttk.Entry(frm_top)
-enter_name.insert(0, 'meow')
-enter_name.grid(row=0, column=1)
+#enter_name.insert(0, 'meow')
+#enter_name.grid(row=0, column=1)
 
 def handle_button_get_info():
     poke_name = enter_name.get().strip()
@@ -52,12 +52,14 @@ def handle_button_get_info():
         label_weight_value = [text] = str(poke_info['Weight']) + ' hg'
         
 label_height = ttk.Label(frm_input, text='Height:')
-label_height.grid(row=0, column=0, padx=(10,5), pady=(10,5), sticky=E)
-
+label_height.grid(row=3, column=0, padx=(10,5), pady=(10,5), sticky=E)
 label_height_value = ttk.Label(frm_input, width=20)
 label_height_value.grid(row=1, column=1, padx=(0,10), pady=(10,5), sticky=W)
 
-
+label_weight = ttk.Label(frm_input, text='Weight:')
+label_weight.grid(row=4, column=0, padx=(10,5), pady=(10,5), sticky=E)
+label_weight_value = ttk.Label(frm_input, width=20)
+label_weight_value.grid(row=1, column=1, padx=(0,10), pady=(10,5), sticky=W)
 
 
 

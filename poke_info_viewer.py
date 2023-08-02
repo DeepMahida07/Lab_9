@@ -56,10 +56,10 @@ label_height.grid(row=3, column=0, padx=(10,5), pady=(10,5), sticky=E)
 label_height_value = ttk.Label(frm_input, width=20)
 label_height_value.grid(row=1, column=1, padx=(0,10), pady=(10,5), sticky=W)
 
-label_weight = ttk.Label(frm_input, text='Weight:')
-label_weight.grid(row=4, column=0, padx=(10,5), pady=(10,5), sticky=E)
-label_weight_value = ttk.Label(frm_input, width=20)
-label_weight_value.grid(row=1, column=1, padx=(0,10), pady=(10,5), sticky=W)
+#label_weight = ttk.Label(frm_input, text='Weight:')
+#label_weight.grid(row=5, column=0, padx=(10,5), pady=(10,5), sticky=E)
+#label_weight_value = ttk.Label(frm_input, width=20)
+#label_weight_value.grid(row=3, column=1, padx=(0,10), pady=(10,5), sticky=W)
 
 
 

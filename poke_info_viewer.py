@@ -71,12 +71,12 @@ label_height_value.grid(row=0, column=1, padx=(0,10), pady=(10,5), sticky=W)
 label_weight = ttk.Label(frm_info, text="Weight:")
 label_weight.grid(row=1, column=0, padx=(10,5), pady=5, sticky=E)
 label_weight_value = ttk.Label(frm_info, width=20)
-label_weight_value.grid(row=0, column=1, padx=(0,10), pady=(10,5), sticky=W)
+label_weight_value.grid(row=1, column=1, padx=(0,10), pady=(10,5), sticky=W)
 
 label_type = ttk.Label(frm_info, text="Type:")
 label_type.grid(row=2, column=0, padx=(10,5), pady=(10,5), sticky=E)
 label_type_value = ttk.Label(frm_info, width=20)
-label_type_value.grid(row=0, column=1, padx=(0,10), pady=(10,5), sticky=W)
+label_type_value.grid(row=2, column=1, padx=(0,10), pady=(10,5), sticky=W)
 
 # Stats fame
 # Note: Max stat value is 255 for all stats
